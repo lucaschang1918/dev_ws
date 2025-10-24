@@ -171,9 +171,9 @@ void RMSerialDriver::receiveData()
 
           theory_task = "aim";
 
-          if (packet.task_mode == 0) {
-            task.data = theory_task;
-          }
+          // if (packet.task_mode == 0) {
+          //   task.data = theory_task;
+          // }
           // else if (packet.task_mode == 1) {
           //   task.data = "aim";
           // } else if (packet.task_mode == 2) {
@@ -183,9 +183,10 @@ void RMSerialDriver::receiveData()
           //     task.data = theory_task;
           //   }
           // }
-          else {
-            task.data = "aim";
-          }
+          // else {
+          //   task.data = "aim";
+          // }
+          task.data = theory_task;
           task_pub_->publish(task);
 
           // RCLCPP_DEBUG(
