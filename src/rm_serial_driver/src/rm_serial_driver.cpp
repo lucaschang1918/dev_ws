@@ -132,9 +132,9 @@ void RMSerialDriver::receiveData()
         // RCLCPP_INFO(this->get_logger(), "header: %u\n", packet.header);
 
         //RCLCPP_INFO(this->get_logger(), "\ndetect_color: %f", packet.yaw);
-        // RCLCPP_WARN(this->get_logger(), "aim_x: %f", packet.roll);
-        // RCLCPP_WARN(this->get_logger(), "aim_y: %f", packet.pitch);
-        // RCLCPP_WARN(this->get_logger(), "aim_z: %f\n", packet.yaw);
+        RCLCPP_WARN(this->get_logger(), "aim_x: %f", packet.aim_x);
+        RCLCPP_WARN(this->get_logger(), "aim_y: %f", packet.aim_y);
+        RCLCPP_WARN(this->get_logger(), "aim_z: %f\n", packet.aim_z);
 
         // RCLCPP_WARN(this->get_logger(), "aim_z: %f\n", packet.state);
 
@@ -217,21 +217,21 @@ void RMSerialDriver::receiveData()
           aim_time_info_pub_->publish(aim_time_info);
           // buff_time_info_pub_->publish(buff_time_info);
 
-          // if (abs(packet.aim_x) > 0.01) {
-          //   aiming_point_.header.stamp = this->now();
-          //   aiming_point_.pose.position.x = packet.aim_x;
-          //   aiming_point_.pose.position.y = packet.aim_y;
-          //   aiming_point_.pose.position.z = packet.aim_z;
+          if (abs(packet.aim_x) > 0.01) {
+            aiming_point_.header.stamp = this->now();
+            aiming_point_.pose.position.x = packet.aim_x;
+            aiming_point_.pose.position.y = packet.aim_y;
+            aiming_point_.pose.position.z = packet.aim_z;
 
-          //   marker_pub_->publish(aiming_point_);
-          // }
+            marker_pub_->publish(aiming_point_);
+          }
 
-          aiming_point_.header.stamp = this->now();
-          aiming_point_.pose.position.x = packet.aim_x;
-          aiming_point_.pose.position.y = packet.aim_y;
-          aiming_point_.pose.position.z = packet.aim_z;
+          // aiming_point_.header.stamp = this->now();
+          // aiming_point_.pose.position.x = packet.aim_x;
+          // aiming_point_.pose.position.y = packet.aim_y;
+          // aiming_point_.pose.position.z = packet.aim_z;
 
-          marker_pub_->publish(aiming_point_);
+          // marker_pub_->publish(aiming_point_);
 
         } else {
           RCLCPP_ERROR(get_logger(), "CRC error!");

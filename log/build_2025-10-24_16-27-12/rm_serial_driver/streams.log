@@ -1,0 +1,43 @@
+[0.009s] Invoking command in '/home/rm_autoaim/dev_ws/build/rm_serial_driver': AMENT_PREFIX_PATH=/home/rm_autoaim/dev_ws/install/auto_aim_interfaces CMAKE_PREFIX_PATH=/home/rm_autoaim/dev_ws/install/auto_aim_interfaces LD_LIBRARY_PATH=/home/rm_autoaim/dev_ws/install/auto_aim_interfaces/lib PYTHONPATH=/home/rm_autoaim/dev_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/rm_autoaim/dev_ws/build/rm_serial_driver -- -j8 -l8
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target rm_serial_driver[0m
+[0.072s] [ 40%] Built target rm_serial_driver_node
+[0.083s] [ 60%] [32mBuilding CXX object CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o[0m
+[13.717s] [ 80%] [32m[1mLinking CXX shared library librm_serial_driver.so[0m
+[14.830s] [100%] Built target rm_serial_driver
+[14.839s] Invoked command in '/home/rm_autoaim/dev_ws/build/rm_serial_driver' returned '0': AMENT_PREFIX_PATH=/home/rm_autoaim/dev_ws/install/auto_aim_interfaces CMAKE_PREFIX_PATH=/home/rm_autoaim/dev_ws/install/auto_aim_interfaces LD_LIBRARY_PATH=/home/rm_autoaim/dev_ws/install/auto_aim_interfaces/lib PYTHONPATH=/home/rm_autoaim/dev_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/rm_autoaim/dev_ws/build/rm_serial_driver -- -j8 -l8
+[14.840s] Invoking command in '/home/rm_autoaim/dev_ws/build/rm_serial_driver': AMENT_PREFIX_PATH=/home/rm_autoaim/dev_ws/install/auto_aim_interfaces CMAKE_PREFIX_PATH=/home/rm_autoaim/dev_ws/install/auto_aim_interfaces LD_LIBRARY_PATH=/home/rm_autoaim/dev_ws/install/auto_aim_interfaces/lib PYTHONPATH=/home/rm_autoaim/dev_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/rm_autoaim/dev_ws/build/rm_serial_driver
+[14.846s] -- Install configuration: ""
+[14.846s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/lib/rm_serial_driver/rm_serial_driver_node
+[14.846s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/include
+[14.846s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/include/rm_serial_driver
+[14.846s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp
+[14.846s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/include/rm_serial_driver/packet.hpp
+[14.846s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/include/rm_serial_driver/crc.hpp
+[14.846s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/environment/library_path.sh
+[14.846s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/environment/library_path.dsv
+[14.846s] -- Installing: /home/rm_autoaim/dev_ws/install/rm_serial_driver/lib/librm_serial_driver.so
+[14.859s] -- Set runtime path of "/home/rm_autoaim/dev_ws/install/rm_serial_driver/lib/librm_serial_driver.so" to ""
+[14.859s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/config
+[14.859s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/config/serial_driver.yaml
+[14.859s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/launch
+[14.859s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/launch/serial_driver.launch.py
+[14.859s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/ament_index/resource_index/package_run_dependencies/rm_serial_driver
+[14.859s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/ament_index/resource_index/parent_prefix_path/rm_serial_driver
+[14.859s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/environment/ament_prefix_path.sh
+[14.859s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/environment/ament_prefix_path.dsv
+[14.860s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/environment/path.sh
+[14.860s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/environment/path.dsv
+[14.860s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/local_setup.bash
+[14.860s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/local_setup.sh
+[14.860s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/local_setup.zsh
+[14.860s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/local_setup.dsv
+[14.860s] -- Installing: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/package.dsv
+[14.860s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/ament_index/resource_index/packages/rm_serial_driver
+[14.860s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/ament_index/resource_index/rclcpp_components/rm_serial_driver
+[14.860s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.860s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.860s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[14.860s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driverConfig.cmake
+[14.860s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driverConfig-version.cmake
+[14.860s] -- Up-to-date: /home/rm_autoaim/dev_ws/install/rm_serial_driver/share/rm_serial_driver/package.xml
+[14.862s] Invoked command in '/home/rm_autoaim/dev_ws/build/rm_serial_driver' returned '0': AMENT_PREFIX_PATH=/home/rm_autoaim/dev_ws/install/auto_aim_interfaces CMAKE_PREFIX_PATH=/home/rm_autoaim/dev_ws/install/auto_aim_interfaces LD_LIBRARY_PATH=/home/rm_autoaim/dev_ws/install/auto_aim_interfaces/lib PYTHONPATH=/home/rm_autoaim/dev_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/rm_autoaim/dev_ws/build/rm_serial_driver
